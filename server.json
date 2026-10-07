@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "cc.sendhq/sendhq",
+  "title": "SendHQ",
+  "description": "Send and receive email from your verified domains; manage domains, templates and deliverability.",
+  "version": "1.0.0",
+  "websiteUrl": "https://sendhq.cc/docs/mcp",
+  "icons": [
+    {
+      "src": "https://sendhq.cc/favicon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "220x220"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.sendhq.cc/mcp"
+    }
+  ]
+}
