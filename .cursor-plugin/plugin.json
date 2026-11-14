@@ -1,0 +1,23 @@
+{
+  "name": "sendhq",
+  "displayName": "SendHQ",
+  "version": "1.0.0",
+  "description": "Email API and real inboxes for AI agents: send and receive from verified domains, read inboxes and threads, write drafts, and manage templates, domains and deliverability across 59 MCP tools. OAuth sign-in, no API key to paste. Requires a SendHQ account.",
+  "author": {
+    "name": "SendHQ",
+    "email": "SUPPORT_EMAIL_TBD"
+  },
+  "homepage": "https://sendhq.cc",
+  "repository": "https://github.com/barotdhrumil21/sendhq-mcp",
+  "license": "MIT",
+  "logo": "https://sendhq.cc/logo.png",
+  "keywords": [
+    "email",
+    "inbox",
+    "agents",
+    "transactional-email",
+    "mcp"
+  ],
+  "category": "integrations",
+  "mcpServers": "./.mcp.json"
+}
